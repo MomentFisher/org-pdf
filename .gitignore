@@ -1,0 +1,9 @@
+# Emacs byte-code
+*.elc
+
+# Maven build output and dependencies
+java/target/
+
+*.DS_Store
+.claude/
+*~
