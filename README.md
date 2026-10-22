@@ -1,6 +1,6 @@
 # org-pdf — Pure Elisp Org → PDF Export
 
-No dependency on LaTeX, Pandoc, a headless browser, or **any external program**. The entire PDF is written byte by byte by Emacs itself.
+No dependency on LaTeX, Pandoc, a headless browser, or **any external program** (Not exactly, JDK is essential for svg image support). The entire PDF is written byte by byte by Emacs itself.
 
 Works on macOS, Windows, and Linux with Emacs 30+.
 

@@ -1,6 +1,6 @@
 # org-pdf — 纯 Elisp 的 Org → PDF 导出
 
-不依赖 LaTeX、pandoc、无头浏览器或**任何**外部程序。整个 PDF 由 Emacs 自己逐字节写出。
+不依赖 LaTeX、pandoc、无头浏览器或**任何**外部程序(不完全是，处理svg图片的时候用到了JDK)。整个 PDF 由 Emacs 自己逐字节写出。
 在 macOS / Windows / Linux 上、Emacs 30+ 通用。
 
 ## 为什么
