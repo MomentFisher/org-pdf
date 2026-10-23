@@ -26,11 +26,11 @@ M-x org-pdf-export           ; Export to a PDF with the same name and open it au
 M-x org-pdf-export-to-file   ; Specify the output path
 ```
 
-**Integration with the Org export dispatcher**: After loading the package, a `p` entry appears in the `C-c C-e` menu:
+**Integration with the Org export dispatcher**: After loading the package, a `S` entry appears in the `C-c C-e` menu:
 
 ```text
-C-c C-e p p    ; Export to PDF (org-pdf)
-C-c C-e p o    ; Export to PDF and open it
+C-c C-e S P    ; Export to PDF (org-pdf)
+C-c C-e S o    ; Export to PDF and open it
 ```
 
 > The top-level key is lowercase **`p`**, because uppercase `P` is reserved for Org's built-in Publish menu. Taking over that key can cause the error

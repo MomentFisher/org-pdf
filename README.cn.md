@@ -25,11 +25,11 @@ M-x org-pdf-export            ; 导出为同名 PDF，并自动打开
 M-x org-pdf-export-to-file   ; 指定输出路径
 ```
 
-**集成到 org 导出调度器**：加载后 `C-c C-e` 菜单里会出现 `p` 项：
+**集成到 org 导出调度器**：加载后 `C-c C-e` 菜单里会出现 `S` 项：
 
 ```
-C-c C-e p p    ; 导出为 PDF（org-pdf）
-C-c C-e p o    ; 导出为 PDF 并打开
+C-c C-e S P    ; 导出为 PDF（org-pdf）
+C-c C-e S o    ; 导出为 PDF 并打开
 ```
 
 > 顶层键用**小写 `p`**，因为大写 `P` 是 org 内置的 Publish 菜单，占用会导致
